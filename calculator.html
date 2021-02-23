@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  <!-- jqueryで実装する場合 -->
+        <link rel="stylesheet" href="calculator.css">
+        <title>電卓</title>
+    </head>
+
+    <body>
+    
+        <div id="calculator-list">
+          <input />
+            <button class="btn-small one" onClick = "append('1')">1</button>
+            <button class="btn-small two" onClick = "append('2')">2</button>
+            <button class="btn-small three" onClick = "append('3')">3</button>
+            <button class="btn-small four" onClick = "append('4')">4</button>
+            <button class="btn-small five" onClick = "append('5')">5</button>
+            <button class="btn-small six" onClick = "append('6')">6</button>
+            <button class="btn-small seven" onClick = "append('7')">7</button>
+            <button class="btn-small eight" onClick = "append('8')">8</button>
+            <button class="btn-small nine" onClick = "append('9')">9</button>
+            <button class="btn-small zero" onClick = "append('0')">0</button>
+            <button class="btn-small doublezero" onClick = "append('00')">00</button>
+            <button class="btn-small plus" onClick = "append('+')">+</button>
+            <button class="btn-small minus" onClick = "append('-')">-</button>
+            <button class="btn-small multiply" onClick = "append('*')">*</button>
+            <button class="btn-small divide" onClick = "append('/')">/</button>
+            <button class="btn-small point" onClick = "append('.')">.</button>
+            <button class="btn-big equal" onClick = "calc()">=</button>
+            <button class="btn-big allclear" onClick = "update('')">AC</button>  
+        </div>
+    </body>
+        <script src="calculator.js"></script>
+        
+</html>

@@ -1,0 +1,23 @@
+#calculator-list{
+    display: inline-block;
+    width: 308px;
+}
+
+input{
+    background-color: black;
+    color: white;
+    width: 300px;
+    text-align: right;
+}
+
+.btn-small{
+    width: 73px;
+    background-color: #CCCCCC;
+    border-radius: 5px;
+}
+
+.btn-big{
+    width: 151px;
+    background-color: #CCCCCC;
+    border-radius: 5px;
+}
